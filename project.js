@@ -13,23 +13,6 @@ document.addEventListener("mousemove",function(dets){
     
 })
 
-//   var allh4 = document.querySelectorAll("#nav h4")
- 
-//   allh4.forEach(function(elem){
-//     elem.addEventListener("mouseenter",function(){
-//         cursor.style.scale = 3,
-//         cursor.style.border = "1px solid #fff",
-//         cursor.style.backgroundColor = "transparent"
-
-        
-
-//     })
-
-
-//   }
-// )
-
-
 gsap.to("#nav",{
     backgroundColor:"#000",
     durarion:0.2,
